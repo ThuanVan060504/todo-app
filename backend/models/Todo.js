@@ -1,0 +1,9 @@
+const mongoose = require("mongoose");
+
+const todoSchema = new mongoose.Schema({
+    text: { type: String, required: true, trim: true },
+    deadline: { type: Date, required: true },
+    done: { type: Boolean, default: false }
+}, { timestamps: true });
+
+module.exports = mongoose.model("Todo", todoSchema);
