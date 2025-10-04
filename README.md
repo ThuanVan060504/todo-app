@@ -1,7 +1,7 @@
 # TO-DO App  
 
 A simple and clean **TO-DO App** built with **HTML, CSS, JS** (frontend) and **Node.js + Express** (backend).  
-Stay organized and never forget your tasks! 🚀  
+Stay organized and never forget your tasks!   
 
 ---
 
